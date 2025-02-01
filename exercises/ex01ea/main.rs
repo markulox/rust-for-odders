@@ -17,7 +17,7 @@ fn execute_me1() -> bool {
 ////////// DO NOT CHANGE BELOW HERE /////////
 #[cfg(test)]
 mod tests{
-    use crate::{execute_me1, execute_me2, execute_me3};
+    use crate::{execute_me1};
 
     #[test]
     fn test_execute_me1() {
