@@ -11,10 +11,13 @@ path = "exercises/ex01a/main.rs"
 name = "ex01b"
 path = "exercises/ex01b/main.rs"
 
-
 [[bin]]
 name = "ex01c"
 path = "exercises/ex01c/main.rs"
+
+[[bin]]
+name = "ex01d"
+path = "exercises/ex01d/main.rs"
 
 [[bin]]
 name = "ex02"
