@@ -1,0 +1,25 @@
+[package]
+name = "rust-for-odders"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "ex01"
+path = "exercises/ex01/main.rs"
+
+[[bin]]
+name = "ex02"
+path = "exercises/ex02/main.rs"
+
+[[bin]]
+name = "ex03"
+path = "exercises/ex03/main.rs"
+
+[[bin]]
+name = "ex04"
+path = "exercises/ex04/main.rs"
+
+
+[dependencies]
+
+
