@@ -28,6 +28,14 @@ name = "ex01e"
 path = "exercises/ex01e/main.rs"
 
 [[bin]]
+name = "ex01ea"
+path = "exercises/ex01ea/main.rs"
+
+[[bin]]
+name = "ex01eb"
+path = "exercises/ex01eb/main.rs"
+
+[[bin]]
 name = "ex02"
 path = "exercises/ex02/main.rs"
 
