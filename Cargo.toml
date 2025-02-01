@@ -4,8 +4,17 @@ version = "0.1.0"
 edition = "2021"
 
 [[bin]]
-name = "ex01"
-path = "exercises/ex01/main.rs"
+name = "ex01a"
+path = "exercises/ex01a/main.rs"
+
+[[bin]]
+name = "ex01b"
+path = "exercises/ex01b/main.rs"
+
+
+[[bin]]
+name = "ex01c"
+path = "exercises/ex01c/main.rs"
 
 [[bin]]
 name = "ex02"
