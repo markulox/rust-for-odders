@@ -24,6 +24,10 @@ name = "ex01d"
 path = "exercises/ex01d/main.rs"
 
 [[bin]]
+name = "ex01e"
+path = "exercises/ex01e/main.rs"
+
+[[bin]]
 name = "ex02"
 path = "exercises/ex02/main.rs"
 
