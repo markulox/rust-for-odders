@@ -8,6 +8,10 @@ name = "ex01a"
 path = "exercises/ex01a/main.rs"
 
 [[bin]]
+name = "ex01aa"
+path = "exercises/ex01aa/main.rs"
+
+[[bin]]
 name = "ex01b"
 path = "exercises/ex01b/main.rs"
 
