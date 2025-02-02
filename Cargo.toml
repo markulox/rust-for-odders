@@ -67,6 +67,10 @@ path = "exercises/ex05b/main.rs"
 name = "exE02"
 path = "exercises/exE02/main.rs"
 
+[[bin]]
+name = "exE04"
+path = "exercises/exE04/main.rs"
+
 [dependencies]
 
 
