@@ -3,7 +3,7 @@
 // End of implementation zone
 
 fn execute_me1() -> String {
-    let taco_box: [Option<&str>; 10] = [
+    let taco_box: Vec<Option<&str>> = vec![
         Some("Beef taco"),
         Some("Chicken taco"),
         Some("Veggie taco"),

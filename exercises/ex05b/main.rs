@@ -1,6 +1,7 @@
 use std::num::ParseFloatError;
 
-// Implement count_tacos function here
+// Implement NumberCollection struct here
+
 
 // End of implementation zone
 
