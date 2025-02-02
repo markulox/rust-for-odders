@@ -36,16 +36,24 @@ name = "ex01eb"
 path = "exercises/ex01eb/main.rs"
 
 [[bin]]
-name = "ex02"
-path = "exercises/ex02/main.rs"
+name = "ex02a"
+path = "exercises/ex02a/main.rs"
 
 [[bin]]
-name = "ex03"
-path = "exercises/ex03/main.rs"
+name = "ex02b"
+path = "exercises/ex02b/main.rs"
 
 [[bin]]
-name = "ex04"
-path = "exercises/ex04/main.rs"
+name = "ex02c"
+path = "exercises/ex02c/main.rs"
+
+[[bin]]
+name = "ex03a"
+path = "exercises/ex03a/main.rs"
+
+[[bin]]
+name = "ex04a"
+path = "exercises/ex04a/main.rs"
 
 
 [dependencies]
