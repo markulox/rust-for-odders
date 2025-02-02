@@ -11,7 +11,7 @@ fn execute_me1() -> String {
         Some("Beef taco"),
         None,
         None,
-        Some("Fruite taco"),
+        Some("Fruit taco"),
         Some("Veggie taco"),
         None,
     ];
