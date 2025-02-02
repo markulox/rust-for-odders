@@ -74,12 +74,48 @@ mod tests {
     }
 
     #[test]
+    fn test_attack2() {
+        let jane_doe = Agent::new("Jane Doe".into(), 100, 1000, 1600, 60.3, 120.25 , true);
+        let lycaon = Agent::new("Lycaon".into(), 100, 1000, 1600, 52.4, 77.3, false);
+
+        assert!(!jane_doe.action_attack(&lycaon));
+        assert!(!lycaon.action_attack(&jane_doe));
+    }
+
+    #[test]
+    fn test_attack3() {
+        let jane_doe = Agent::new("Jane Doe".into(), 100, 1, 0, 60.3, 120.25 , true);
+        let lycaon = Agent::new("Lycaon".into(), 100, 1, 0, 52.4, 77.3, false);
+
+        assert!(jane_doe.action_attack(&lycaon));
+        assert!(lycaon.action_attack(&jane_doe));
+    }
+
+    #[test]
     fn test_defend() {
         let jane_doe = Agent::new("Jane Doe".into(), 100, 3000, 1600, 60.3, 120.25 , true);
         let lycaon = Agent::new("Lycaon".into(), 100, 1600, 2700, 52.4, 77.3, false);
 
         assert!(jane_doe.action_defend(&lycaon));
         assert!(!lycaon.action_attack(&jane_doe));
+    }
+
+    #[test]
+    fn test_defend2() {
+        let jane_doe = Agent::new("Jane Doe".into(), 100, 1000, 1600, 60.3, 120.25 , true);
+        let lycaon = Agent::new("Lycaon".into(), 100, 1000, 1600, 52.4, 77.3, false);
+
+        assert!(jane_doe.action_defend(&lycaon));
+        assert!(lycaon.action_defend(&jane_doe));
+    }
+
+    #[test]
+    fn test_defend3() {
+        let jane_doe = Agent::new("Jane Doe".into(), 100, 1, 0, 60.3, 120.25 , true);
+        let lycaon = Agent::new("Lycaon".into(), 100, 1, 0, 52.4, 77.3, false);
+
+        assert!(!jane_doe.action_defend(&lycaon));
+        assert!(!lycaon.action_defend(&jane_doe));
     }
 
     #[test]
