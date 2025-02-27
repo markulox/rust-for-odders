@@ -7,7 +7,7 @@
 ////////// DO NOT CHANGE BELOW HERE /////////
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use crate::*;
 
     #[test]
     fn test_student_no_grades() {
